@@ -10,4 +10,11 @@ import "fmt"
 
 func main(){
 	fmt.Println("My first Go code")
+
+	// initialize variables here
+	var smsSendingLimit int = 0
+	var costPerSMS float64 = 0.1
+	var hasPermission bool = true
+	var  username string = "Pranav"
+	fmt.Printf("%v %.2f %v %q\n", smsSendingLimit, costPerSMS, hasPermission, username)
 }
